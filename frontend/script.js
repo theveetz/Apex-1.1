@@ -1,7 +1,7 @@
 document.getElementById('search-form').addEventListener('submit', function(event) {
     event.preventDefault();
     const address = document.getElementById('address').value;
-    const apiUrl = 'https://your-elastic-beanstalk-url/api/transactions';
+    const apiUrl = 'apex-5.ap-southeast-2.elasticbeanstalk.com ';
     fetch(`${apiUrl}?address=${address}`)
         .then(response => response.json())
         .then(data => {
