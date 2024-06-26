@@ -1,0 +1,8 @@
+CREATE TABLE transactions (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    tx_hash TEXT NOT NULL,
+    amount REAL NOT NULL,
+    timestamp TEXT NOT NULL,
+    sender TEXT NOT NULL,
+    receiver TEXT NOT NULL
+);
