@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #0E0719 0%, #100C23 59%, #181C49 100%);
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color: white;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23.87px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#results {
+    margin-top: 20px;
+}
+
+img {
+    width: 1030.35px;
+    height: 654.19px;
+    position: absolute;
+    left: 284.83px;
+    top: -101px;
+}
+
+.description {
+    position: absolute;
+    width: 858.62px;
+    left: 374.78px;
+    top: 510.26px;
+    font-size: 23.87px;
+    font-weight: 400;
+}
+
+.header {
+    width: 961.09px;
+    height: 119.02px;
+    position: absolute;
+    left: 322.52px;
+    top: 468.35px;
+    background: #1C1F28;
+    box-shadow: 0px 0px 100.13px 16.50px #3E2487;
+    border-radius: 29.91px;
+    border: 4.12px solid #EC83BB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-content {
+    width: 896.40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ask-question {
+    display: flex;
+    align-items: center;
+    gap: 33.01px;
+}
+
+.ask-question-icon {
+    width: 57.34px;
+    height: 55.60px;
+    position: relative;
+}
+
+.ask-question-icon div {
+    position: absolute;
+}
+
+.ask-question-icon div:nth-child(1) {
+    width: 13.03px;
+    height: 17.38px;
+    left: 39.96px;
+    top: 13.03px;
+    transform: rotate(-90deg);
+    background: white;
+}
+
+.ask-question-icon div:nth-child(2) {
+    width: 51.26px;
+    height: 53px;
+    left: 0;
+    top: 2.61px;
+    background: white;
+}
+
+.search-power {
+    position: absolute;
+    width: 830.92px;
+    height: 170px;
+    left: 385px;
+    top: 208.72px;
+    text-align: center;
+}
+
+.search-power span:nth-child(2) {
+    color: #DE55DE;
+}
+
+.search-power span {
+    color: white;
+    font-size: 76.71px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    line-height: 84.58px;
+}
